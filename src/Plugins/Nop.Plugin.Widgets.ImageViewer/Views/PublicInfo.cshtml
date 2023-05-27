@@ -1,0 +1,28 @@
+﻿@model Nop.Plugin.Widgets.ImageViewer.Models.PublicInfoModel
+@{
+    Layout = "";
+}
+
+<link rel="stylesheet" href="~/Plugins/Widgets.ImageViewer/Content/imageviewer/nivo-slider.css" />
+<link rel="stylesheet" href="~/Plugins/Widgets.ImageViewer/Content/imageviewer/themes/custom/custom.css" />
+<script asp-exclude-from-bundle="true" src="~/Plugins/Widgets.ImageViewer/Scripts/jquery.nivo.slider.js" asp-location="Footer"></script>
+
+<div class="slider-wrapper theme-custom">
+    <div id="nivo-slider" class="imageviewer">
+        @{
+            var dataSlide1 = new ViewDataDictionary(ViewData)
+            {
+                {"pictureUrl", Model.Picture1Url},
+                { "text", Model.Text1},
+                { "link", Model.Link1},
+                {"alttext", Model.AltText1 }
+            };
+            @await Html.PartialAsync("~/Plugins/Widgets.ImageViewer/Views/_PublicInfo.SliderLine.cshtml", dataSlide1)
+        }
+    </div>
+</div>
+<script asp-location="Footer">
+    $(window).on('load', function () {
+        $('#nivo-slider').imageviewer();
+    });
+</script>

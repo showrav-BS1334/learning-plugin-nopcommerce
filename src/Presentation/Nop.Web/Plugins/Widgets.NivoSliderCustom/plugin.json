@@ -1,0 +1,16 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Nivo Slider Custom",
+  "SupportedVersions": [
+    "4.60"
+  ],
+  "Author": "BS23",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.NivoSliderCustom.dll",
+  "Description": "This plugin will show some text in home-index!",
+  "LimitedToStores": [],
+  "LimitedToCustomerRoles": [],
+  "DependsOnSystemNames": [],
+  "SystemName": "Widgets.NivoSliderCustom",
+  "Version": "1.50"
+}
