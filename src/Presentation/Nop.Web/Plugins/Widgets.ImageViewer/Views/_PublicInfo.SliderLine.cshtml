@@ -11,14 +11,9 @@
     {
         if (!string.IsNullOrEmpty(link))
         {
-            //style="  display: flex; justify-content: center; align-items: center;"
-            <marquee>
-                <div>
-                    <a href="@link" aria-label="@alttext">
-                        <img src="@pictureUrl" data-thumb="@pictureUrl" data-transition="@dataTransition" alt="@alttext" title="@text" style="max-width: 2000px; max-height: 300px; " />
-                    </a>
-                </div>
-            </marquee>
+            <a href="@link" aria-label="@alttext">
+                <img src="@pictureUrl" data-thumb="@pictureUrl" data-transition="@dataTransition" alt="@alttext" title="@text" />
+            </a>
         }
         else
         {

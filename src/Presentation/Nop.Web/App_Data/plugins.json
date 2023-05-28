@@ -90,6 +90,10 @@
     {
       "SystemName": "Widgets.ImageViewer",
       "Version": "1.50"
+    },
+    {
+      "SystemName": "Widgets.MyPlugin",
+      "Version": "1.50"
     }
   ],
   "PluginNamesToUninstall": [],

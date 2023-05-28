@@ -1,11 +1,16 @@
 ﻿{
   "Group": "Widgets",
   "FriendlyName": "Image Viewer",
-  "SystemName": "Widgets.ImageViewer",
-  "Version": "1.50",
-  "SupportedVersions": [ "4.60" ],
+  "SupportedVersions": [
+    "4.60"
+  ],
   "Author": "BrainStation-23",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Widgets.ImageViewer.dll",
-  "Description": "This plugin allows you to change the contents of main page slider"
+  "Description": "This plugin allows you to change the contents of main page slider",
+  "LimitedToStores": [],
+  "LimitedToCustomerRoles": [],
+  "DependsOnSystemNames": [],
+  "SystemName": "Widgets.ImageViewer",
+  "Version": "1.50"
 }
