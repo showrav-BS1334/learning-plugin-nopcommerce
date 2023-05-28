@@ -624,6 +624,8 @@ C:\Users\BS-1045\source\repos\nopCommerce new\nopCommerce_4.60.3_Source\src\Libr
 C:\Users\BS-1045\source\repos\nopCommerce new\nopCommerce_4.60.3_Source\src\Libraries\Nop.Services\obj\Debug\net7.0\refint\Nop.Services.dll
 C:\Users\BS-1045\source\repos\nopCommerce new\nopCommerce_4.60.3_Source\src\Libraries\Nop.Services\obj\Debug\net7.0\Nop.Services.pdb
 C:\Users\BS-1045\source\repos\nopCommerce new\nopCommerce_4.60.3_Source\src\Libraries\Nop.Services\obj\Debug\net7.0\ref\Nop.Services.dll
+C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\obj\Debug\net7.0\Nop.Services.pdb
+C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\obj\Debug\net7.0\ref\Nop.Services.dll
 C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\bin\Debug\net7.0\Nop.Services.deps.json
 C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\bin\Debug\net7.0\Nop.Services.dll
 C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\bin\Debug\net7.0\Nop.Services.pdb
@@ -935,5 +937,3 @@ C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcom
 C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\obj\Debug\net7.0\Nop.Services.csproj.CopyComplete
 C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\obj\Debug\net7.0\Nop.Services.dll
 C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\obj\Debug\net7.0\refint\Nop.Services.dll
-C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\obj\Debug\net7.0\Nop.Services.pdb
-C:\Users\BS-1045\source\repos\learning plugin nopcommerce\learning-plugin-nopcommerce\src\Libraries\Nop.Services\obj\Debug\net7.0\ref\Nop.Services.dll
