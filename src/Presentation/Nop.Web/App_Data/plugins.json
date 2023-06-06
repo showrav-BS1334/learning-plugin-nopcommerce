@@ -94,6 +94,10 @@
     {
       "SystemName": "Widgets.MyPlugin",
       "Version": "1.50"
+    },
+    {
+      "SystemName": "Widgets.StudentCRUD",
+      "Version": "1.50"
     }
   ],
   "PluginNamesToUninstall": [],

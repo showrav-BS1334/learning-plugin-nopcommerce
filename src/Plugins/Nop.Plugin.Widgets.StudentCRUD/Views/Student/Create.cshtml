@@ -1,0 +1,31 @@
+﻿@using Nop.Plugin.Widgets.StudentCRUD.Models
+@model StudentViewModel
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+<form asp-controller="Student" asp-action="Create" method="post" id="configuration-form">
+    <div class="col-md-3">
+        <div class="label-wrapper">
+            <label class="col-form-label">
+                Name:
+            </label>
+            <div class="inputs">
+                <input asp-for="Name" />
+            </div>
+        </div>
+        <div class="label-wrapper">
+            <label class="col-form-label">
+                Age:
+            </label>
+            <div class="inputs">
+                <input asp-for="Age" />
+            </div>
+        </div>
+    </div>
+    <button type="submit" name="save" class="btn btn-primary">
+        <i class="far fa-save"></i>
+        @T("Admin.Common.Save")
+    </button>
+</form>

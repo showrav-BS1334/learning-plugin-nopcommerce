@@ -1,0 +1,22 @@
+﻿@using Nop.Plugin.Widgets.StudentCRUD.Models
+@model StudentViewModel
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+<form asp-controller="Student" asp-action="Edit" method="post">
+    <h5>Edit</h5>
+
+    <div class="mb-3">
+        <label>Name</label>
+        <input asp-for=@Model.Name class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Age</label>
+        <input asp-for=@Model.Age class="form-control" />
+    </div>
+    <input asp-for="@Model.Id" style="display: none"/>
+
+    <button type="submit" class="btn btn-primary" style="width: 150px">Update</button>
+</form>

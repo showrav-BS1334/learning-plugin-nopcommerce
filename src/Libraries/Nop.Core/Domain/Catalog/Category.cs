@@ -13,6 +13,7 @@ namespace Nop.Core.Domain.Catalog
     /// </summary>
     public partial class Category : BaseEntity, ILocalizedEntity, ISlugSupported, IAclSupported, IStoreMappingSupported, IDiscountSupported<DiscountCategoryMapping>, ISoftDeletedEntity
     {
+        public string University { get; set; }
         /// <summary>
         /// Gets or sets the name
         /// </summary>
@@ -132,5 +133,7 @@ namespace Nop.Core.Domain.Catalog
         /// Gets or sets a value indicating whether the price range should be entered manually
         /// </summary>
         public bool ManuallyPriceRange { get; set; }
+
+        public int MyProperty { get; set; }
     }
 }
